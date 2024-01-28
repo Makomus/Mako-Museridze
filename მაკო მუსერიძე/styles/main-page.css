@@ -1,0 +1,39 @@
+* {
+  font-family: 'Interphases', sans-serif;
+  font-weight: 400;  
+}
+
+body {
+  margin: 0;
+  padding-top: 11.4dvh;
+  overflow-y: scroll;
+}
+
+@font-face {
+  font-family: 'Interphases';
+  src: url('fonts/interphases-extralight.ttf') format('truetype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Interphases';
+  src: url('fonts/interphases-regular.ttf') format('truetype');
+  font-weight: 400; 
+}
+
+@font-face {
+  font-family: 'Interphases';
+  src: url('fonts/interphases-demibold.ttf') format('truetype');
+  font-weight: 500; 
+}
+
+@font-face {
+  font-family: 'Interphases';
+  src: url('fonts/interphases-black.ttf') format('truetype');
+  font-weight: 600; 
+}
+
+.georgian-text {
+  font-family: 'FiraGO', sans-serif;
+}
+
