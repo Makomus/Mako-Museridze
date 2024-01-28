@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const header = document.getElementById("header-js");
-  const scrollPosition = window.scrollY;
+  let header = document.getElementById("header-js");
+  let scrollPosition = window.scrollY;
 
   window.addEventListener("scroll", function () {
     scrollPosition = window.scrollY;
